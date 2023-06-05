@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
     tools:context=".MainActivity">
 
-    <FrameLayout
-        android:id="@+id/camera_container"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <!-- Tambahkan elemen untuk tampilan kamera di sini -->
-
-    </FrameLayout>
-
     <Button
-        android:id="@+id/capture_button"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true"
-        android:background="@drawable/circle_button"
-        android:clickable="true"
-        android:focusable="true" />
+        android:id="@+id/btn_click"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:text="Halaman Berikutnya"/>
 
-</RelativeLayout>
+
+
+
+</LinearLayout>
