@@ -1,1 +1,0 @@
-Back end API for Skinease Application
