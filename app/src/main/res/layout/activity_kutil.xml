@@ -21,7 +21,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Kulit kamu bermasalah nih!"
-            android:fontFamily="@font/PoppinsMedium"/>
+            android:fontFamily="@font/poppinsmedium"/>
 
         <TextView
             android:id="@+id/nama_penyakit"
@@ -31,7 +31,7 @@
             android:layout_below="@+id/text_kulit_bermasalah"
             android:textSize="40dp"
             android:textColor="@color/birunavy"
-            android:fontFamily="@font/PoppinsBold"/>
+            android:fontFamily="@font/poppinsbold"/>
 
         <TextView
             android:id="@+id/apasih"
@@ -39,7 +39,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="apa sih itu?"
-            android:fontFamily="@font/PoppinsBold"/>
+            android:fontFamily="@font/poppinsbold"/>
 
         <TextView
             android:layout_marginTop="15dp"
@@ -49,7 +49,7 @@
             android:layout_height="wrap_content"
             android:textAlignment="textStart"
             android:text="Kutil adalah benjolan di kulit akibat infeksi virus human papilloma (HPV). Virus ini dapat menyerang berbagai bagian tubuh, termasuk telapak tangan, kaki, dan kelamin.Virus penyebab kutil biasanya menular melalui kontak fisik dengan penderita kutil atau dari benda yang terkontaminasi. Setelah kulit terpapar HPV, kutil membutuhkan waktu sekitar 2–6 bulan untuk berkembang."
-            android:fontFamily="@font/PoppinsMedium"/>
+            android:fontFamily="@font/poppinsmedium"/>
         <TextView
             android:layout_marginTop="15dp"
             android:id="@+id/cara"
@@ -57,7 +57,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Pengobatan dan Pencegahan"
-            android:fontFamily="@font/PoppinsBold"/>
+            android:fontFamily="@font/poppinsbold"/>
 
         <TextView
             android:id="@+id/pencegahan"
@@ -66,7 +66,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Kutil umumnya dapat sembuh tanpa pengobatan tertentu. Namun, kutil juga bisa menyebar dan menyebabkan gangguan kesehatan lain sehingga harus ditangani. Penanganannya bisa dengan penggunaan obat oles, krioterapi, terapi laser, dan kauterisasi. Ada beberapa upaya yang dapat dilakukan untuk mencegah penyebaran virus penyebab kutil, yaitu:"
-            android:fontFamily="@font/PoppinsMedium"/>
+            android:fontFamily="@font/poppinsmedium"/>
 
         <TextView
             android:layout_marginTop="15dp"
@@ -76,7 +76,7 @@
             android:layout_height="wrap_content"
             android:textSize="12dp"
             android:text="- Tidak menyentuh kutil, baik pada orang lain maupun diri sendiri "
-            android:fontFamily="@font/PoppinsRegular"/>
+            android:fontFamily="@font/poppinsregular"/>
 
         <TextView
             android:layout_marginTop="15dp"
@@ -86,7 +86,7 @@
             android:layout_height="wrap_content"
             android:textSize="12dp"
             android:text="- Mencuci tangan secara rutin"
-            android:fontFamily="@font/PoppinsRegular"/>
+            android:fontFamily="@font/poppinsregular"/>
 
         <TextView
             android:layout_marginTop="15dp"
@@ -96,7 +96,7 @@
             android:layout_height="wrap_content"
             android:textSize="12dp"
             android:text="- Menggunakan sandal saat berada di tempat yang lembab, seperti kamar mandi dan ruang ganti umum"
-            android:fontFamily="@font/PoppinsRegular"/>
+            android:fontFamily="@font/poppinsregular"/>
 
 
 

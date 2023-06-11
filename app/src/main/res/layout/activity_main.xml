@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,28 +7,70 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <FrameLayout
-        android:id="@+id/frame_layout"
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/btn_click"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_above="@+id/btn_click">
+
+        <FrameLayout
+            android:id="@+id/frame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="@color/black"
+                android:id="@+id/teks1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="naufal"/>
 
 
+        </FrameLayout>
 
-    </FrameLayout>
+    </ScrollView>
 
-    <Button
+    <ImageButton
         android:id="@+id/btn_click"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:gravity="center"
-        android:text="Kemera"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="155dp" />
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="630dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_capture"
+        android:background="@drawable/circle_background"
+        android:contentDescription="Overlay Button">
+    </ImageButton>
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+<!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--        android:id="@+id/bottomNavigationView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="56dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="15dp"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:layout_marginEnd="15dp"-->
+<!--        android:layout_marginBottom="15dp"-->
+<!--        android:background="@drawable/bottom_nav_bar_background">-->
+
+<!--    </com.google.android.material.bottomnavigation.BottomNavigationView>-->
+
+
+    <!--    <Button-->
+<!--        android:id="@+id/btn_click"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="16dp"-->
+<!--        android:gravity="center"-->
+<!--        android:text="Kemera"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        tools:layout_editor_absoluteX="155dp" />-->
+
+
+
+
+</RelativeLayout>

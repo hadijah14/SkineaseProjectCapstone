@@ -32,6 +32,10 @@ import androidx.core.content.ContextCompat
 import androidx.core.content.FileProvider
 import com.example.skineast.databinding.ActivityHalamanKameraBinding
 import com.example.skineast.databinding.ActivityMainBinding
+import com.example.skineast.halaman_penyakit.jerawat
+import com.example.skineast.halaman_penyakit.kurap
+import com.example.skineast.halaman_penyakit.kutil
+import com.example.skineast.halaman_penyakit.shingles
 import okhttp3.MediaType.Companion.toMediaType
 import okhttp3.MultipartBody
 import okhttp3.RequestBody.Companion.asRequestBody
@@ -63,7 +67,7 @@ public class HalamanKamera : AppCompatActivity() {
 
     private var getFile: File? = null
 
-    private var our_request_code : Int = 123
+    private var our_request_code: Int = 123
 
     companion object {
         const val CAMERA_X_RESULT = 200
@@ -72,7 +76,7 @@ public class HalamanKamera : AppCompatActivity() {
         private const val REQUEST_CODE_PERMISSIONS = 10
     }
 
-//    override fun onRequestPermissionsResult(
+    //    override fun onRequestPermissionsResult(
 //        requestCode: Int,
 //        permissions: Array<String>,
 //        grantResults: IntArray
@@ -111,15 +115,13 @@ public class HalamanKamera : AppCompatActivity() {
         binding.btnCamera.setOnClickListener { startTakePhoto() }
 
         imageView = findViewById(R.id.Image_Save)
-        cameraManager = getSystemService(CAMERA_SERVICE)as CameraManager
-        handlerThread = HandlerThread ("VideoThread")
+        cameraManager = getSystemService(CAMERA_SERVICE) as CameraManager
+        handlerThread = HandlerThread("VideoThread")
         handlerThread.start()
         handler = Handler((handlerThread).looper)
         button = findViewById(R.id.btn_camera)
         buttonProses = findViewById(R.id.btn_proses)
-       // buttonProses.visibility = View.GONE
-
-
+        // buttonProses.visibility = View.GONE
 
 
 // CARA KALAU PAKE BITMAP
@@ -170,8 +172,9 @@ public class HalamanKamera : AppCompatActivity() {
             }
         }
     }
+
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-        if (requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK){
+        if (requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK) {
             val imageBitmap = data?.extras?.get("data") as Bitmap
 
             // Mendapatkan dimensi tampilan ImageView
@@ -206,22 +209,23 @@ public class HalamanKamera : AppCompatActivity() {
             imageView.setImageBitmap(hdBitmap)
             buttonProses.visibility = View.VISIBLE
             button.visibility = View.GONE
-        }else{
+        } else {
             super.onActivityResult(requestCode, resultCode, data)
         }
     }
-    fun get_permission(){
-        val permissionLst =  mutableListOf<String>()
 
-        if(checkSelfPermission(android.Manifest.permission.CAMERA)!= PackageManager.PERMISSION_GRANTED)
+    fun get_permission() {
+        val permissionLst = mutableListOf<String>()
+
+        if (checkSelfPermission(android.Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED)
             permissionLst.add(android.Manifest.permission.CAMERA)
-        if(checkSelfPermission(android.Manifest.permission.READ_EXTERNAL_STORAGE)!= PackageManager.PERMISSION_GRANTED)
+        if (checkSelfPermission(android.Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED)
             permissionLst.add(android.Manifest.permission.READ_EXTERNAL_STORAGE)
-        if(checkSelfPermission(android.Manifest.permission.WRITE_EXTERNAL_STORAGE)!= PackageManager.PERMISSION_GRANTED)
+        if (checkSelfPermission(android.Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED)
             permissionLst.add(android.Manifest.permission.WRITE_EXTERNAL_STORAGE)
 
-        if(permissionLst.size >0){
-            requestPermissions(permissionLst.toTypedArray(),101)
+        if (permissionLst.size > 0) {
+            requestPermissions(permissionLst.toTypedArray(), 101)
         }
     }
 
@@ -232,7 +236,7 @@ public class HalamanKamera : AppCompatActivity() {
     ) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
         grantResults.forEach {
-            if(it != PackageManager.PERMISSION_GRANTED){
+            if (it != PackageManager.PERMISSION_GRANTED) {
                 get_permission()
             }
         }
@@ -254,7 +258,8 @@ public class HalamanKamera : AppCompatActivity() {
         if (getFile != null) {
             val file = reduceFileImage(getFile as File)
 
-            val description = "Ini adalah deksripsi gambar".toRequestBody("text/plain".toMediaType())
+            val description =
+                "Ini adalah deksripsi gambar".toRequestBody("text/plain".toMediaType())
             val requestImageFile = file.asRequestBody("image/jpeg".toMediaType())
             val imageMultipart: MultipartBody.Part = MultipartBody.Part.createFormData(
                 "file",
@@ -273,20 +278,28 @@ public class HalamanKamera : AppCompatActivity() {
                     if (response.isSuccessful) {
                         val responseBody = response.body()
                         if (responseBody != null) {
-                            Toast.makeText(this@HalamanKamera, responseBody.message, Toast.LENGTH_SHORT).show()
-                            val intent = Intent(this@HalamanKamera, halanan_list::class.java)
-                            startActivity(intent)
+                            Toast.makeText(
+                                this@HalamanKamera,
+                                responseBody.message,
+                                Toast.LENGTH_SHORT
+                            ).show()
                         }
                     } else {
-                        Toast.makeText(this@HalamanKamera, response.message(), Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this@HalamanKamera, response.message(), Toast.LENGTH_SHORT)
+                            .show()
                     }
                 }
+
                 override fun onFailure(call: Call<FileUploadResponse>, t: Throwable) {
                     Toast.makeText(this@HalamanKamera, t.message, Toast.LENGTH_SHORT).show()
                 }
             })
         } else {
-            Toast.makeText(this@HalamanKamera, "Silakan masukkan berkas gambar terlebih dahulu.", Toast.LENGTH_SHORT).show()
+            Toast.makeText(
+                this@HalamanKamera,
+                "Silakan masukkan berkas gambar terlebih dahulu.",
+                Toast.LENGTH_SHORT
+            ).show()
         }
     }
 }
