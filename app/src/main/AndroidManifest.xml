@@ -3,15 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.skineast">
 
-    <uses-feature
-        android:name="android.hardware.camera"
-        android:required="false" />
-
     <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -23,6 +18,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SkinEast"
         tools:targetApi="31">
+        <activity
+            android:name=".halanan_list"
+            android:exported="false" />
+        <activity
+            android:name=".halaman_panu"
+            android:exported="false" />
+        <activity
+            android:name=".halaman_kutil"
+            android:exported="false" />
+        <activity
+            android:name=".merawat_tropis"
+            android:exported="false" />
         <activity
             android:name=".HalamanDetail"
             android:exported="false" />
@@ -39,6 +46,15 @@
             </intent-filter>
         </activity>
 
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.dicoding.picodiploma.mycamera"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
     </application>
 
 </manifest>
