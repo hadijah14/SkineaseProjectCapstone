@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".halaman_penyakit.kutil">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/text_kulit_bermasalah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kulit kamu bermasalah nih!"
+            android:fontFamily="@font/PoppinsMedium"/>
+
+        <TextView
+            android:id="@+id/nama_penyakit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kutil"
+            android:layout_below="@+id/text_kulit_bermasalah"
+            android:textSize="40dp"
+            android:textColor="@color/birunavy"
+            android:fontFamily="@font/PoppinsBold"/>
+
+        <TextView
+            android:id="@+id/apasih"
+            android:layout_below="@id/nama_penyakit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="apa sih itu?"
+            android:fontFamily="@font/PoppinsBold"/>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:id="@+id/penjelasan"
+            android:layout_below="@id/apasih"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:text="Kutil adalah benjolan di kulit akibat infeksi virus human papilloma (HPV). Virus ini dapat menyerang berbagai bagian tubuh, termasuk telapak tangan, kaki, dan kelamin.Virus penyebab kutil biasanya menular melalui kontak fisik dengan penderita kutil atau dari benda yang terkontaminasi. Setelah kulit terpapar HPV, kutil membutuhkan waktu sekitar 2–6 bulan untuk berkembang."
+            android:fontFamily="@font/PoppinsMedium"/>
+        <TextView
+            android:layout_marginTop="15dp"
+            android:id="@+id/cara"
+            android:layout_below="@id/penjelasan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pengobatan dan Pencegahan"
+            android:fontFamily="@font/PoppinsBold"/>
+
+        <TextView
+            android:id="@+id/pencegahan"
+            android:layout_below="@id/cara"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kutil umumnya dapat sembuh tanpa pengobatan tertentu. Namun, kutil juga bisa menyebar dan menyebabkan gangguan kesehatan lain sehingga harus ditangani. Penanganannya bisa dengan penggunaan obat oles, krioterapi, terapi laser, dan kauterisasi. Ada beberapa upaya yang dapat dilakukan untuk mencegah penyebaran virus penyebab kutil, yaitu:"
+            android:fontFamily="@font/PoppinsMedium"/>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:id="@+id/pointsatu"
+            android:layout_below="@id/pencegahan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text="- Tidak menyentuh kutil, baik pada orang lain maupun diri sendiri "
+            android:fontFamily="@font/PoppinsRegular"/>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:id="@+id/pointdua"
+            android:layout_below="@id/pointsatu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text="- Mencuci tangan secara rutin"
+            android:fontFamily="@font/PoppinsRegular"/>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:id="@+id/pointtiga"
+            android:layout_below="@id/pointdua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text="- Menggunakan sandal saat berada di tempat yang lembab, seperti kamar mandi dan ruang ganti umum"
+            android:fontFamily="@font/PoppinsRegular"/>
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+</ScrollView>

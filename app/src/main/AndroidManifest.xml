@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.skineast">
 
-    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CAMERA"/>
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -19,13 +19,25 @@
         android:theme="@style/Theme.SkinEast"
         tools:targetApi="31">
         <activity
+            android:name=".halaman_penyakit.jerawat"
+            android:exported="false" />
+        <activity
+            android:name=".halaman_penyakit.kemerahan"
+            android:exported="false" />
+        <activity
+            android:name=".halaman_penyakit.kusta"
+            android:exported="false" />
+        <activity
+            android:name=".halaman_penyakit.shingles"
+            android:exported="false" />
+        <activity
+            android:name=".halaman_penyakit.kurap"
+            android:exported="false" />
+        <activity
+            android:name=".halaman_penyakit.kutil"
+            android:exported="false" />
+        <activity
             android:name=".halanan_list"
-            android:exported="false" />
-        <activity
-            android:name=".halaman_panu"
-            android:exported="false" />
-        <activity
-            android:name=".halaman_kutil"
             android:exported="false" />
         <activity
             android:name=".merawat_tropis"
