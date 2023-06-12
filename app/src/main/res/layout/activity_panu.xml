@@ -1,9 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white"
     tools:context=".halaman_penyakit.panu">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:id="@+id/text_kulit_bermasalah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kulit kamu bermasalah nih!"
+            android:fontFamily="@font/poppinsmedium"/>
+
+        <TextView
+            android:id="@+id/nama_penyakit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Panu"
+            android:layout_below="@+id/text_kulit_bermasalah"
+            android:textSize="40dp"
+            android:textColor="@color/birunavy"
+            android:fontFamily="@font/poppinsbold"/>
+
+        <TextView
+            android:textColorHint="@color/black"
+            android:id="@+id/apasih"
+            android:layout_below="@id/nama_penyakit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="apa sih itu?"
+            android:fontFamily="@font/poppinsbold"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:id="@+id/penjelasan"
+            android:layout_below="@id/apasih"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:text="Tinea versicolor atau panu adalah masalah kulit yang umumnya ditandai dengan munculnya bercak berwarna terang. Kondisi ini tidak bahaya, tetapi sering kali membuat seseorang menjadi kurang percaya diri. Panu disebabkan oleh pertumbuhan jamur pada kulityang menyebabkan perubahan pada pigmentasi atau warna alami kulit dan menimbulkan gejala seperti rasa gatal. Panu memang bisa dialami oleh siapa saja, namun seringnya terjadi pada remaja atau orang berusia muda dikarenakan perubahan hormon di masa pubertas yang membuat kelenjar minyak lebih aktif, hal ini dapat memengaruhi kelembapan pada kulit. Orang-orang yang hidup di lingkungan dengan iklim panas dan lembap juga memiliki risiko lebih tinggi mengalami penyakit kulit ini."
+            android:fontFamily="@font/poppinsmedium"/>
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:id="@+id/cara"
+            android:layout_below="@id/penjelasan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pengobatan dan Pencegahan"
+            android:fontFamily="@font/poppinsbold"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/pencegahan"
+            android:layout_below="@id/cara"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Panu adalah kondisi yang tidak membahayakan dan bisa hilang dengan sendirinya. Namun, kondisi kulit seperti ini tentu dapat mengganggu penampilan. Oleh karenanya, akan lebih baik apabila Anda melakukan pemeriksaan ke dokter untuk mendapatkan resep obat yang sesuai dengan kondisi Anda. Obat panu yang biasa digunakan yaitu antijamur dalam bentuk oles dan minum. Sebagai upaya pengobatan dan cara menghilangkan panu, dokter biasanya akan memberikan krim yang mengandung selenium sulfide, pyrithione zinc, dan ketoconazole. Tak hanya meringankan gejala, namun kandungan tersebut juga dapat melindungi kulit dari paparan sinar matahari."
+            android:fontFamily="@font/poppinsmedium"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:id="@+id/pointsatu"
+            android:layout_below="@id/pencegahan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text=""
+            android:fontFamily="@font/poppinsregular"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:id="@+id/pointdua"
+            android:layout_below="@id/pointsatu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text=""
+            android:fontFamily="@font/poppinsregular"/>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:id="@+id/pointtiga"
+            android:layout_below="@id/pointdua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text=""
+            android:fontFamily="@font/poppinsregular"/>
+
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>
