@@ -6,6 +6,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="@color/white"
     tools:context=".HalamanKamera">
 
 
@@ -21,8 +22,8 @@
         android:layout_marginTop="30dp"
         android:id="@+id/Image_Save"
         android:layout_width="300dp"
-        android:layout_height="500dp"
-        android:background="@drawable/ic_launcher_background"
+        android:layout_height="400dp"
+        android:background="@drawable/tata"
         />
 
     <Button

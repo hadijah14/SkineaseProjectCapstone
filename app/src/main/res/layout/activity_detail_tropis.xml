@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".halaman_detail.detail_tropis">
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cara merawat kulit di negara tropis"
+        android:textSize="16dp"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_marginBottom="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/kulit_tropis_1"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/text_detail"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Lindungi kulit dari sinar matahari"/>
+
+
+
+</LinearLayout>

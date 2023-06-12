@@ -1,11 +1,12 @@
-package com.example.skineast
+package com.example.skineast.halaman_detail
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.skineast.R
 
-class merawat_tropis : AppCompatActivity() {
+class detail_tropis : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_merawat_tropis)
+        setContentView(R.layout.activity_detail_tropis)
     }
 }

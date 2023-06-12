@@ -33,8 +33,11 @@ import androidx.core.content.FileProvider
 import com.example.skineast.databinding.ActivityHalamanKameraBinding
 import com.example.skineast.databinding.ActivityMainBinding
 import com.example.skineast.halaman_penyakit.jerawat
+import com.example.skineast.halaman_penyakit.kemerahan
 import com.example.skineast.halaman_penyakit.kurap
+import com.example.skineast.halaman_penyakit.kusta
 import com.example.skineast.halaman_penyakit.kutil
+import com.example.skineast.halaman_penyakit.panu
 import com.example.skineast.halaman_penyakit.shingles
 import okhttp3.MediaType.Companion.toMediaType
 import okhttp3.MultipartBody
@@ -53,6 +56,7 @@ lateinit var cameraCaptureSession: CameraCaptureSession
 lateinit var cameraDevice: CameraDevice
 lateinit var captureRequest: CaptureRequest
 lateinit var imageView: ImageView
+lateinit var imageView2: ImageView
 lateinit var button: Button
 lateinit var buttonProses: Button
 lateinit var viewResultButton: Button
@@ -121,6 +125,7 @@ public class HalamanKamera : AppCompatActivity() {
         handler = Handler((handlerThread).looper)
         button = findViewById(R.id.btn_camera)
         buttonProses = findViewById(R.id.btn_proses)
+        imageView2 = findViewById(R.id.Image_Save)
         // buttonProses.visibility = View.GONE
 
 
@@ -207,8 +212,6 @@ public class HalamanKamera : AppCompatActivity() {
                 true
             )
             imageView.setImageBitmap(hdBitmap)
-            buttonProses.visibility = View.VISIBLE
-            button.visibility = View.GONE
         } else {
             super.onActivityResult(requestCode, resultCode, data)
         }
@@ -276,13 +279,30 @@ public class HalamanKamera : AppCompatActivity() {
                     response: Response<FileUploadResponse>
                 ) {
                     if (response.isSuccessful) {
+                        imageView.visibility = View.GONE
                         val responseBody = response.body()
                         if (responseBody != null) {
-                            Toast.makeText(
-                                this@HalamanKamera,
-                                responseBody.message,
-                                Toast.LENGTH_SHORT
-                            ).show()
+                            if (responseBody.message == "0"){
+                                startActivity(Intent(this@HalamanKamera, shingles::class.java))
+                            }else if (responseBody.message == "1"){
+                                startActivity(Intent(this@HalamanKamera, jerawat::class.java))
+                            }else if (responseBody.message == "2"){
+                                startActivity(Intent(this@HalamanKamera, kurap::class.java))
+                            }else if (responseBody.message == "3"){
+                                startActivity(Intent(this@HalamanKamera, kusta::class.java))
+                            }else if (responseBody.message == "4"){
+                                startActivity(Intent(this@HalamanKamera,kutil::class.java))
+                            }else if (responseBody.message == "5"){
+                                startActivity(Intent(this@HalamanKamera, panu::class.java))
+                            }else if (responseBody.message == "6"){
+                                startActivity(Intent(this@HalamanKamera, shingles::class.java))
+                            }else {
+                                Toast.makeText(
+                                    this@HalamanKamera,
+                                    "Gambar Tidak terdeteksi",
+                                    Toast.LENGTH_SHORT
+                                ).show()
+                            }
                         }
                     } else {
                         Toast.makeText(this@HalamanKamera, response.message(), Toast.LENGTH_SHORT)

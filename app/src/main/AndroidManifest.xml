@@ -3,10 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.skineast">
 
-    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+
 
     <application
         android:allowBackup="true"
@@ -18,6 +23,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SkinEast"
         tools:targetApi="31">
+        <activity
+            android:name=".halaman_detail.detail_tropis"
+            android:exported="false" />
         <activity
             android:name=".halaman_penyakit.jerawat"
             android:exported="false" />
@@ -38,9 +46,6 @@
             android:exported="false" />
         <activity
             android:name=".halanan_list"
-            android:exported="false" />
-        <activity
-            android:name=".merawat_tropis"
             android:exported="false" />
         <activity
             android:name=".HalamanDetail"
