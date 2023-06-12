@@ -1,1 +1,2 @@
 Skinease_2_3.h5 filter=lfs diff=lfs merge=lfs -text
+Skinease_6.h5 filter=lfs diff=lfs merge=lfs -text
