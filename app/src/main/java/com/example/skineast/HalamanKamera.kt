@@ -279,7 +279,6 @@ public class HalamanKamera : AppCompatActivity() {
                     response: Response<FileUploadResponse>
                 ) {
                     if (response.isSuccessful) {
-                        imageView.visibility = View.GONE
                         val responseBody = response.body()
                         if (responseBody != null) {
                             if (responseBody.message == "0"){

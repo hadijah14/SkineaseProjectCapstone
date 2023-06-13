@@ -73,7 +73,6 @@ class RecyclerViewAdapter : RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>
         holder.image.setImageResource(itemImages[position])
 
         holder.itemView.setOnClickListener { v:View ->
-            Toast.makeText(v.context, "Clicked on the item", Toast.LENGTH_SHORT).show()
             when (position){
                 0 -> {
                     // Kode untuk pindah ke halaman pertama
