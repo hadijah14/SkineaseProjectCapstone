@@ -294,7 +294,7 @@ public class HalamanKamera : AppCompatActivity() {
                             }else if (responseBody.message == "5"){
                                 startActivity(Intent(this@HalamanKamera, panu::class.java))
                             }else if (responseBody.message == "6"){
-                                startActivity(Intent(this@HalamanKamera, shingles::class.java))
+                                startActivity(Intent(this@HalamanKamera, kemerahan::class.java))
                             }else {
                                 Toast.makeText(
                                     this@HalamanKamera,

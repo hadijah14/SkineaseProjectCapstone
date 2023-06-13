@@ -48,7 +48,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="textStart"
-            android:text=""
+            android:text="Jerawat adalah gangguan pada kulit. Kondisi ini berhubungan dengan produksi minyak (sebum) yang terjadi secara berlebihan. Minyak berlebih bisa menyumbat pori-pori kulit. Pada setiap pori-pori kulit, terdapat folikel yang terdiri dari kelenjar minyak dan rambut. Jerawat terjadi ketika folikel rambut atau tempat tumbuhnya rambut tersumbat oleh minyak dan sel kulit mati.
+Hal tersebut menyebabkan peradangan serta penyumbatan pada pori-pori kulit. Peradangan ini ditandai dengan munculnya benjolan kecil yang terkadang berisi nanah di atas kulit. Gangguan kulit ini dapat terjadi di bagian tubuh dengan kelenjar minyak terbanyak, yaitu di wajah, leher, bagian atas dada, dan punggung. Benjolan inilah yang disebut dengan jerawat. "
             android:fontFamily="@font/poppinsmedium"/>
         <TextView
             android:layout_marginTop="15dp"
@@ -65,7 +66,9 @@
             android:layout_marginTop="15dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""
+            android:text="Untuk mendapatkan pengobatan yang tepat, diskusikan terlebih dahulu kondisi jerawat dengan dokter. Dokter umumnya memberikan obat-obatan yang mengandung sulfur, resorsinol, asam salisilat, antibiotik, dan isotretinoin.
+
+Penggunaan obat-obatan harus dalam pengawasan dokter, karena efek samping yang dapat ditimbulkan. Wanita hamil juga tidak dianjurkan menggunakan isotretinoin, karena dapat menyebabkan kecacatan pada janin. "
             android:fontFamily="@font/poppinsmedium"/>
 
         <TextView
