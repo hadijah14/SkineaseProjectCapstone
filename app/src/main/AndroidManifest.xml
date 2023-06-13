@@ -48,6 +48,9 @@
             android:name=".halaman_penyakit.kemerahan"
             android:exported="false" />
         <activity
+            android:name=".halaman_penyakit.panu"
+            android:exported="false" />
+        <activity
             android:name=".halaman_penyakit.kusta"
             android:exported="false" />
         <activity
