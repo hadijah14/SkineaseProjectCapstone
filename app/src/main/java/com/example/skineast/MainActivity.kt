@@ -13,48 +13,26 @@ import android.widget.Toast
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import android.view.TextureView
-import android.widget.ImageButton
-import android.widget.LinearLayout
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatDialogFragment
-import androidx.appcompat.widget.AppCompatButton
-import androidx.appcompat.widget.AppCompatImageButton
 import androidx.camera.core.CameraSelector
 import androidx.camera.core.Preview
 import androidx.camera.lifecycle.ProcessCameraProvider
 import androidx.fragment.app.Fragment
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import com.example.skineast.databinding.ActivityMainBinding
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
 
-    var layoutManager: RecyclerView.LayoutManager? = null
-    var adapter: RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>? = null
-
-
-
     private lateinit var binding : ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        //binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(R.layout.activity_main)
 
-        val btnClick: ImageButton = findViewById(R.id.btn_click)
+        val btnClick: Button = findViewById(R.id.btn_click)
         btnClick.setOnClickListener(this)
-
-        val recyclerView: RecyclerView = findViewById(R.id.recycleView)
-
-        layoutManager = LinearLayoutManager(this)
-        recyclerView.layoutManager = layoutManager
-
-        adapter = RecyclerViewAdapter()
-        recyclerView.adapter = adapter
-
-
-
     }
 
     override fun onClick(v: View?) {
