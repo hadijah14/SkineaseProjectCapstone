@@ -14,6 +14,10 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import android.view.TextureView
 import android.widget.ImageButton
+<<<<<<< Updated upstream
+=======
+import android.widget.ImageView
+>>>>>>> Stashed changes
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatDialogFragment
 import androidx.camera.core.CameraSelector
@@ -40,6 +44,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         setContentView(R.layout.activity_main)
         recyclerView = findViewById(R.id.recycleView)
 
+<<<<<<< Updated upstream
         layoutManager = LinearLayoutManager(this)
         recyclerView.layoutManager = layoutManager
 
@@ -48,6 +53,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
 
 
+=======
+>>>>>>> Stashed changes
         val btnClick: ImageButton = findViewById(R.id.btn_click)
         btnClick.setOnClickListener(this)
     }
