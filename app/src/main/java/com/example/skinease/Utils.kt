@@ -1,4 +1,4 @@
-package com.example.skineast
+package com.example.skinease
 
 import android.app.Application
 import android.content.ContentResolver

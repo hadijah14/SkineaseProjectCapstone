@@ -1,4 +1,4 @@
-package com.example.skineast
+package com.example.skinease
 
 import android.content.Intent
 import android.view.LayoutInflater
@@ -7,11 +7,11 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.skineast.halaman_detail.detail_tropis
-import com.example.skineast.halaman_detail.fungsi_kulit
-import com.example.skineast.halaman_detail.kesalahan_memakai_tabir
-import com.example.skineast.halaman_detail.mengenal_struktur_kulit
-import com.example.skineast.halaman_detail.struktur_kulit
+import com.example.skinease.halaman_detail.detail_tropis
+import com.example.skinease.halaman_detail.fungsi_kulit
+import com.example.skinease.halaman_detail.kesalahan_memakai_tabir
+import com.example.skinease.halaman_detail.mengenal_struktur_kulit
+import com.example.skinease.halaman_detail.struktur_kulit
 
 class RecyclerViewAdapter : RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>() {
 
@@ -69,7 +69,7 @@ class RecyclerViewAdapter : RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>
             when (position){
                 0 -> {
                     // Kode untuk pindah ke halaman pertama
-                    val intent = Intent(v.context, detail_tropis::class.java)
+                    val intent = Intent(v.context, fungsi_kulit::class.java)
                     v.context.startActivity(intent)
             }
             }
@@ -83,7 +83,7 @@ class RecyclerViewAdapter : RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>
             when (position){
                 2 -> {
                     // Kode untuk pindah ke halaman pertama
-                    val intent = Intent(v.context, fungsi_kulit::class.java)
+                    val intent = Intent(v.context, detail_tropis::class.java)
                     v.context.startActivity(intent)
                 }
             }

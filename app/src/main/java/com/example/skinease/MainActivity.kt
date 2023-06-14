@@ -1,4 +1,4 @@
-package com.example.skineast
+package com.example.skinease
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -7,7 +7,7 @@ import android.view.View
 import android.widget.ImageButton
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.skineast.databinding.ActivityMainBinding
+import com.example.skinease.databinding.ActivityMainBinding
 
 
 

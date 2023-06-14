@@ -1,12 +1,11 @@
-package com.example.skineast.halaman_penyakit
+package com.example.skinease
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.skineast.R
 
-class shingles : AppCompatActivity() {
+class halanan_list : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_shingles)
+        setContentView(R.layout.activity_halanan_list)
     }
 }

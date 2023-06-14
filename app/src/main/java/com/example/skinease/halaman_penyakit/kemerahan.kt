@@ -1,12 +1,12 @@
-package com.example.skineast.halaman_detail
+package com.example.skinease.halaman_penyakit
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.skineast.R
+import com.example.skinease.R
 
-class struktur_kulit : AppCompatActivity() {
+class kemerahan : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_struktur_kulit)
+        setContentView(R.layout.activity_kemerahan)
     }
 }

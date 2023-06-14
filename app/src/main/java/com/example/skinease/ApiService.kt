@@ -1,10 +1,9 @@
-package com.example.skineast
+package com.example.skinease
 
 import okhttp3.MultipartBody
 import retrofit2.Call
 import retrofit2.http.*
 import retrofit2.http.POST
-import okhttp3.RequestBody
 import retrofit2.http.Multipart
 import com.google.gson.annotations.SerializedName
 import okhttp3.OkHttpClient

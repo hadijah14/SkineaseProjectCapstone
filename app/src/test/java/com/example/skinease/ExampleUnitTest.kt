@@ -1,4 +1,4 @@
-package com.example.skineast
+package com.example.skinease
 
 import org.junit.Test
 
