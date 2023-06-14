@@ -13,24 +13,27 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Cara merawat kulit di negara tropis"
-        android:textSize="16dp"
-        android:fontFamily="@font/poppinsbold"
+        android:textSize="16sp"
+        android:fontFamily="@font/dmsans_bold"
         android:layout_marginBottom="10dp"
         />
 
-    <ImageView
+    <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/item_image"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:src="@drawable/kulit_tropis_1"
-        android:scaleType="centerCrop"/>
+        android:scaleType="centerCrop"
+        app:shapeAppearanceOverlay="@style/roundimageview"/>
 
     <TextView
         android:id="@+id/text_detail"
-        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="30sp"
+        android:fontFamily="@font/dmsans_medium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="1. Lindungi kulit dari sinar matahari"/>
+        android:text="Berdasarkan jumlah melanin atau sel pembentuk warna kulit, ada 6 tipe kulit, yang diwakili dengan nomer 1 sampai dengan 6. Semakin besar nomernya, semakin gelap warna kulit. Rata-rata penduduk asli Indonesia memiliki tipe kulit 4,5 dan 6 yaitu kulit coklat cenderung gelap. “Sebenarnya warna kulit coklat atau gelap untuk orang Indonesia lebih menguntungkan karena kadar melanin tinggi sehingga kulit terproteksi dengan baik dari sinar matahari. Hanya saja reaksinya lebih cepat sampai terbentuk pigmentasi atau bintik-bintik coklat di kulit. Bahkan di Indonesia flek atau deposit melanin sudah bisa muncul di usia 20-an.” jelas dr. Anesia Tania SpKK dalam acara Talkshow yang diselenggarakan Ristra Cosmetodermatology, bertema Kulit Wajah Sehat, cantik Kini Hingga Nanti, di Jakarta, 24 April 2018."/>
 
 
 

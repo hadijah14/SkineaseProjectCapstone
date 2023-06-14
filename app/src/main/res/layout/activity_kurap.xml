@@ -12,16 +12,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-
         <TextView
             android:id="@+id/text_kulit_bermasalah"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Kulit kamu bermasalah nih!"
-            android:fontFamily="@font/poppinsmedium"/>
+            android:fontFamily="@font/dmsans_medium"/>
 
         <TextView
             android:id="@+id/nama_penyakit"
@@ -39,7 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="apa sih itu?"
-            android:fontFamily="@font/poppinsbold"/>
+            android:fontFamily="@font/dmsans_bold"/>
 
         <TextView
             android:layout_marginTop="15dp"
@@ -50,7 +46,7 @@
             android:textAlignment="textStart"
             android:text="Kurap adalah infeksi jamur pada kulit yang mengakibatkan munculnya ruam melingkar berwarna merah. Kurap bisa menyerang beberapa bagian tubuh, seperti kepala, tangan wajah, kaki, bahkan hingga ke area selangkangan. Jamur adalah organisme yang dapat hidup di berbagai tempat, tak terkecuali pada tubuh manusia. Sebagian jamur tidak membahayakan bagi manusia, tetapi lainnya bisa memicu bahaya apabila bertumbuh dan berkembang pada tubuh manusia dengan cepat.
 Bentuk kurap sendiri mirip seperti cincin atau cacing yang melingkar, sehingga dikenal pula dengan istilah ringworm. "
-            android:fontFamily="@font/poppinsmedium"/>
+            android:fontFamily="@font/dmsans_medium"/>
         <TextView
             android:layout_marginTop="15dp"
             android:id="@+id/cara"
@@ -58,7 +54,7 @@ Bentuk kurap sendiri mirip seperti cincin atau cacing yang melingkar, sehingga d
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Pengobatan dan Pencegahan"
-            android:fontFamily="@font/poppinsbold"/>
+            android:fontFamily="@font/dmsans_bold"/>
 
         <TextView
             android:id="@+id/pencegahan"
@@ -72,7 +68,7 @@ Terbinafine.
 Miconazole.
 Naftifine.
 Ketoconazole."
-            android:fontFamily="@font/poppinsmedium"/>
+            android:fontFamily="@font/dmsans_medium"/>
 
         <TextView
             android:layout_marginTop="15dp"

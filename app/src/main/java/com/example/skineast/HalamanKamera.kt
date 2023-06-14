@@ -1,37 +1,25 @@
 package com.example.skineast
 
 import android.Manifest
-import android.app.Instrumentation.ActivityResult
-import android.content.ActivityNotFoundException
-import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
-import android.graphics.Camera
-import android.hardware.camera2.CameraCaptureSession
-import android.hardware.camera2.CameraDevice
 import android.hardware.camera2.CameraManager
-import android.hardware.camera2.CaptureRequest
-import android.media.Image
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.HandlerThread
 import android.provider.MediaStore
-import android.view.TextureView
-import android.view.View
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.Toast
-import android.widget.ToggleButton
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.core.content.FileProvider
 import com.example.skineast.databinding.ActivityHalamanKameraBinding
-import com.example.skineast.databinding.ActivityMainBinding
 import com.example.skineast.halaman_penyakit.jerawat
 import com.example.skineast.halaman_penyakit.kemerahan
 import com.example.skineast.halaman_penyakit.kurap
@@ -51,30 +39,22 @@ import java.io.File
 lateinit var handler: Handler
 lateinit var handlerThread: HandlerThread
 lateinit var cameraManager: CameraManager
-lateinit var textureView: TextureView
-lateinit var cameraCaptureSession: CameraCaptureSession
-lateinit var cameraDevice: CameraDevice
-lateinit var captureRequest: CaptureRequest
 lateinit var imageView: ImageView
 lateinit var imageView2: ImageView
 lateinit var button: Button
 lateinit var buttonProses: Button
-lateinit var viewResultButton: Button
 val  REQUEST_IMAGE_CAPTURE = 100
 
 
 
-public class HalamanKamera : AppCompatActivity() {
+class HalamanKamera : AppCompatActivity() {
 
     private lateinit var binding: ActivityHalamanKameraBinding
     private lateinit var currentPhotoPath: String
 
     private var getFile: File? = null
 
-    private var our_request_code: Int = 123
-
     companion object {
-        const val CAMERA_X_RESULT = 200
 
         private val REQUIRED_PERMISSIONS = arrayOf(Manifest.permission.CAMERA)
         private const val REQUEST_CODE_PERMISSIONS = 10

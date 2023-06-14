@@ -6,16 +6,12 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.example.skineast.halaman_detail.detail_tropis
 import com.example.skineast.halaman_detail.fungsi_kulit
 import com.example.skineast.halaman_detail.kesalahan_memakai_tabir
 import com.example.skineast.halaman_detail.mengenal_struktur_kulit
 import com.example.skineast.halaman_detail.struktur_kulit
-import com.example.skineast.halaman_penyakit.jerawat
-import com.example.skineast.halaman_penyakit.kurap
-import org.w3c.dom.Text
 
 class RecyclerViewAdapter : RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>() {
 
@@ -79,35 +75,35 @@ class RecyclerViewAdapter : RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>
                     val intent = Intent(v.context, detail_tropis::class.java)
                     v.context.startActivity(intent)
             }
-            };
+            }
             when (position){
                 1 -> {
                     // Kode untuk pindah ke halaman pertama
                     val intent = Intent(v.context, mengenal_struktur_kulit::class.java)
                     v.context.startActivity(intent)
                 }
-            };
+            }
             when (position){
                 2 -> {
                     // Kode untuk pindah ke halaman pertama
                     val intent = Intent(v.context, struktur_kulit::class.java)
                     v.context.startActivity(intent)
                 }
-            };
+            }
             when (position){
                 3 -> {
                     // Kode untuk pindah ke halaman pertama
                     val intent = Intent(v.context, fungsi_kulit::class.java)
                     v.context.startActivity(intent)
                 }
-            };
+            }
             when (position){
                 4 -> {
                     // Kode untuk pindah ke halaman pertama
                     val intent = Intent(v.context, kesalahan_memakai_tabir::class.java)
                     v.context.startActivity(intent)
                 }
-            };
+            }
         }
     }
 }
