@@ -1,9 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
     tools:context=".halaman_detail.kesalahan_memakai_tabir">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="8 Kesalahan Memakai Tabir Surya Yang Jarang Disadari"
+        android:textSize="16sp"
+        android:fontFamily="@font/dmsans_bold"
+        android:layout_marginBottom="10dp"
+        />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/item_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/delapan_kesalahan"
+        android:scaleType="centerCrop"
+        app:shapeAppearanceOverlay="@style/roundimageview"/>
+
+    <TextView
+        android:id="@+id/text_detail"
+        android:textColor="@color/black"
+        android:layout_marginTop="30sp"
+        android:fontFamily="@font/dmsans_bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:text="Kesalahan Memakai Sunscreen"/>
+    <TextView
+        android:textColor="@color/black"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:fontFamily="@font/dmsans_medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Kesalahan Memakai Sunscreen"/>
+    <TextView
+        android:textColor="@color/black"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:fontFamily="@font/dmsans_medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Terlalu Sedikit"/>
+    <TextView
+        android:textColor="@color/black"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:fontFamily="@font/dmsans_medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Kandungan SPF Kurang"/>
+    <TextView
+        android:textColor="@color/black"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:fontFamily="@font/dmsans_medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Hanya dipakai Sekali"/>
+    <TextView
+        android:textColor="@color/black"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:fontFamily="@font/dmsans_medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Tidak digunakan sebelum keluar ruangan"/>
+    <TextView
+        android:textColor="@color/black"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:fontFamily="@font/dmsans_medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Melupakan bagian tubuh tertentu"/>
+    <TextView
+        android:textColor="@color/black"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:fontFamily="@font/dmsans_medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Menggunakan tidak merata"/>
+
+
+</LinearLayout>

@@ -1,9 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:background="@color/white"
     tools:context=".halaman_detail.mengenal_struktur_kulit">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mengenal Struktur Kulit Manusia Beserta Fungsinya"
+            android:textSize="16sp"
+            android:fontFamily="@font/dmsans_bold"
+            android:layout_marginBottom="10dp"
+            />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/item_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/struktur_kulit"
+            android:scaleType="centerCrop"
+            app:shapeAppearanceOverlay="@style/roundimageview"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginTop="30sp"
+            android:fontFamily="@font/dmsans_bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Struktur Kulit Manusia"/>
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginTop="10sp"
+            android:fontFamily="@font/dmsans_medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Walau terlihat sederhana, kulit adalah organ yang kompleks. Struktur kulit disusun oleh beberapa lapisan, yang masing-masing memiliki komponen dengan fungsi yang berbeda-beda. Berikut ini adalah penjelasan lebih rinci tentang struktur kulit dan lapisannya:"/>
+<TextView
+            android:textColor="@color/black"
+            android:layout_marginTop="15sp"
+            android:layout_marginStart="10sp"
+            android:fontFamily="@font/dmsans_bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Epidermis"/>
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginTop="5sp"
+            android:fontFamily="@font/dmsans_regular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Epidermis merupakan lapisan terluar dari struktur kulit. Sebagai lapisan terluar, epidermis menjadi benteng pertama tubuh terhadap paparan dari lingkungan sekitar, termasuk sinar UV dari matahari. Lapisan ini juga berperan penting dalam menjaga kelembapan kulit."/>
+<TextView
+            android:textColor="@color/black"
+            android:layout_marginTop="15sp"
+            android:layout_marginStart="10sp"
+            android:fontFamily="@font/dmsans_bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Dermis"/>
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginTop="5sp"
+            android:fontFamily="@font/dmsans_regular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dermis adalah lapisan kulit di bawah epidermis. Struktur lapisan ini menyumbang 90% ketebalan kulit dan terdiri dari elastin yang memberikan kekenyalan pada kulit dan kolagen untuk mengencangkan kulit. Struktur di lapisan dermis terbagi atas lapisan papiler dan lapisan retikular. Lapisan papiler tersusun atas jaringan ikat longgar yang kaya akan pembuluh darah, sedangkan lapisan retikular yang letaknya lebih dalam tersusun atas jaringan ikat padat dengan ujung saraf, folikel rambut, dan kelenjar-kelenjar."/>
+    <TextView
+            android:textColor="@color/black"
+            android:layout_marginTop="15sp"
+            android:layout_marginStart="10sp"
+            android:fontFamily="@font/dmsans_bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- SubKutis"/>
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginTop="5sp"
+            android:fontFamily="@font/dmsans_regular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subkutis dikenal juga dengan hipodermis atau lapisan subkutan. Lapisan ini merupakan lapisan terbawah kulit dan strukturnya tersusun dari sel lemak dan lapisan pelengkap kulit, termasuk jaringan ikat, pembuluh darah dan saraf, kelenjar keringat, serta folikel rambut.Lapisan ini akan melindungi organ yang lebih dalam, melindungi tubuh dari perubahan suhu, dingin maupun panas, dan sebagai tempat penyimpanan lemak serta cadangan energi."/>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

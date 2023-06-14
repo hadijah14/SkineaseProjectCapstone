@@ -19,7 +19,7 @@ class RecyclerViewAdapter : RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>
         "Cara merawat kulit di negara tropis",
         "Mengenal Struktur Kulit Manusia Beserta Fungsinya",
         "Struktur Kulit Manusia",
-        "Fungsi Kulit Manusia",
+        "Benarkah Sinar Matahari Mencegah Kanker Kulit?",
         "8 Kesalahan memakai Tabir Surya yang jarang disadari",
     )
 
