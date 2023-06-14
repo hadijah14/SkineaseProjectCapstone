@@ -90,6 +90,43 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Subkutis dikenal juga dengan hipodermis atau lapisan subkutan. Lapisan ini merupakan lapisan terbawah kulit dan strukturnya tersusun dari sel lemak dan lapisan pelengkap kulit, termasuk jaringan ikat, pembuluh darah dan saraf, kelenjar keringat, serta folikel rambut.Lapisan ini akan melindungi organ yang lebih dalam, melindungi tubuh dari perubahan suhu, dingin maupun panas, dan sebagai tempat penyimpanan lemak serta cadangan energi."/>
+<TextView
+            android:textColor="@color/black"
+            android:layout_marginTop="24sp"
+            android:fontFamily="@font/dmsans_bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Kenali Fungsi Kulit"/>
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginTop="5sp"
+            android:fontFamily="@font/dmsans_regular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:text="- Melindungi tubuh"/>
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginTop="5sp"
+            android:fontFamily="@font/dmsans_regular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Menjaga Suhu Tubuh"/>
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginTop="5sp"
+            android:fontFamily="@font/dmsans_regular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Menyimpan lemak"/>
+         <TextView
+            android:textColor="@color/black"
+            android:layout_marginTop="5sp"
+            android:fontFamily="@font/dmsans_regular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Menghasilkan vitamin D alami"/>
+
 
     </LinearLayout>
 

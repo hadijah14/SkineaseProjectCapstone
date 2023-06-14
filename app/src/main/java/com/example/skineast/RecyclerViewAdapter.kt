@@ -18,13 +18,11 @@ class RecyclerViewAdapter : RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>
     private val itemTitles = arrayOf(
         "Cara merawat kulit di negara tropis",
         "Mengenal Struktur Kulit Manusia Beserta Fungsinya",
-        "Struktur Kulit Manusia",
         "Benarkah Sinar Matahari Mencegah Kanker Kulit?",
         "8 Kesalahan memakai Tabir Surya yang jarang disadari",
     )
 
     private val itemDetails = arrayOf(
-        "klik untuk melanjutkan",
         "klik untuk melanjutkan",
         "klik untuk melanjutkan",
         "klik untuk melanjutkan",
@@ -34,8 +32,7 @@ class RecyclerViewAdapter : RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>
     private val itemImages = intArrayOf(
         R.drawable.cara_merawat_kulit,
         R.drawable.struktur_kulit,
-        R.drawable.struktuur,
-        R.drawable.kulit_tropis_1,
+        R.drawable.benarkah_sinar_matahari,
         R.drawable.delapan_kesalahan,
     )
 
@@ -86,19 +83,12 @@ class RecyclerViewAdapter : RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>
             when (position){
                 2 -> {
                     // Kode untuk pindah ke halaman pertama
-                    val intent = Intent(v.context, struktur_kulit::class.java)
-                    v.context.startActivity(intent)
-                }
-            }
-            when (position){
-                3 -> {
-                    // Kode untuk pindah ke halaman pertama
                     val intent = Intent(v.context, fungsi_kulit::class.java)
                     v.context.startActivity(intent)
                 }
             }
             when (position){
-                4 -> {
+                3 -> {
                     // Kode untuk pindah ke halaman pertama
                     val intent = Intent(v.context, kesalahan_memakai_tabir::class.java)
                     v.context.startActivity(intent)

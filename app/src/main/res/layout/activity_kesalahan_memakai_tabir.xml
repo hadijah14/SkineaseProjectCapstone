@@ -97,6 +97,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="- Menggunakan tidak merata"/>
+ <TextView
+        android:textColor="@color/black"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:fontFamily="@font/dmsans_medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="- Tidak Menggunakan sunscreen didalam ruangan"/>
 
 
 </LinearLayout>
