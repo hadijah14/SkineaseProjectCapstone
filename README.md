@@ -73,6 +73,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
+    <li><a href="#documentation">Documentation</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
@@ -102,8 +103,7 @@
 * [Google Cloud Platform Services](https://cloud.google.com/gcp)
 * [Kotlin Programming Language](https://kotlinlang.org/)
 
-<!-- GETTING STARTED -->
-
+## GETTING STARTED
 ### Prerequisites
 
 1. Android Lolipop (SDK 21)
@@ -122,9 +122,12 @@
 3. Take a photo of your skin by choosing the "Ambil Gambar" button.
 4. The prediction about the skin disease will be out.
 
+<!-- DOCUMENTATION -->
+## Documentation
+* <a href="https://github.com/hadijah14/SkineaseProjectCapstone/blob/CC/skineasebackend/README.md">Cloud Computing Documentation</a>
 
 <!-- CONTRIBUTING -->
-<!-- ## Contributing
+## Contributing
 
 Contributions make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
