@@ -1,1 +1,3 @@
-Back end API for Skinease Application
+Cloud-based Skin Diseases Prediction on Skinease
+--- 
+The Flask framework, which is a Python-based web framework, is utilized to integrate the TensorFlow model into the app. This integration allows the app to receive image prediction requests through HTTP using the POST method. To ensure the app's portability and inclusion of all necessary libraries and dependencies, it is containerized using Docker. This packaging process allows for easy deployment and consistent execution across different environments. The app is then uploaded to the Cloud Run service via the Google Cloud SDK. Cloud Run is a fully managed serverless platform that simplifies deployment and infrastructure management, enabling developers to focus solely on app development. With this streamlined process, the app can be quickly deployed and hosted in the cloud.
