@@ -44,7 +44,7 @@
             android:fontFamily="@font/dmsans_medium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Walau terlihat sederhana kulit adalah organ yang kompleks. Struktur kulit disusun oleh beberapa lapisan, yang masing-masing memiliki komponen dengan fungsi yang berbeda-beda. Berikut ini adalah penjelasan lebih rinci tentang struktur kulit dan lapisannya:"/>
+            android:text="Walau terlihat sederhan kulit adalah organ yang kompleks. Struktur kulit disusun oleh beberapa lapisan, yang masing-masing memiliki komponen dengan fungsi yang berbeda-beda. Berikut ini adalah penjelasan lebih rinci tentang struktur kulit dan lapisannya:"/>
 <TextView
             android:textColor="@color/black"
             android:layout_marginTop="15sp"
