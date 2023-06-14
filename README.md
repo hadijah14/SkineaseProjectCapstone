@@ -97,13 +97,16 @@
 
 ### Built With
 
+* [TensorFlow](https://www.tensorflow.org/)
+* [Google Colab](https://research.google.com/colaboratory/)
+* [Inception v3](https://keras.io/api/applications/inceptionv3/)
 * [Android Studio Native](https://developer.android.com/studio)
 * [Cloud Run](https://cloud.google.com/run/docs)
 * [Cloud Storage](https://cloud.google.com/storage)
 * [Google Cloud Platform Services](https://cloud.google.com/gcp)
 * [Kotlin Programming Language](https://kotlinlang.org/)
 
-## GETTING STARTED
+## Getting Started
 ### Prerequisites
 
 1. Android Lolipop (SDK 21)
