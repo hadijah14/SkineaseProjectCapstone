@@ -1,12 +1,12 @@
-package com.example.skineast.halaman_penyakit
+package com.example.skinease.halaman_detail
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.skineast.R
+import com.example.skinease.R
 
-class kutil : AppCompatActivity() {
+class detail_tropis : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_kutil)
+        setContentView(R.layout.activity_detail_tropis)
     }
 }

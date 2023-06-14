@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.skineast">
+    package="com.example.skinease">
 
     <uses-permission android:name="android.permission.CAMERA" />
 
@@ -27,52 +27,52 @@
         android:theme="@style/Theme.SkinEast"
         tools:targetApi="31">
         <activity
-            android:name=".halaman_detail.kesalahan_memakai_tabir"
+            android:name="com.example.skinease.halaman_detail.kesalahan_memakai_tabir"
             android:exported="false" />
         <activity
-            android:name=".halaman_detail.fungsi_kulit"
+            android:name="com.example.skinease.halaman_detail.fungsi_kulit"
             android:exported="false" />
         <activity
-            android:name=".halaman_detail.struktur_kulit"
+            android:name="com.example.skinease.halaman_detail.struktur_kulit"
             android:exported="false" />
         <activity
-            android:name=".halaman_detail.mengenal_struktur_kulit"
+            android:name="com.example.skinease.halaman_detail.mengenal_struktur_kulit"
             android:exported="false" />
         <activity
-            android:name=".halaman_detail.detail_tropis"
+            android:name="com.example.skinease.halaman_detail.detail_tropis"
             android:exported="false" />
         <activity
-            android:name=".halaman_penyakit.jerawat"
+            android:name="com.example.skinease.halaman_penyakit.jerawat"
             android:exported="false" />
         <activity
-            android:name=".halaman_penyakit.kemerahan"
+            android:name="com.example.skinease.halaman_penyakit.kemerahan"
             android:exported="false" />
         <activity
-            android:name=".halaman_penyakit.panu"
+            android:name="com.example.skinease.halaman_penyakit.panu"
             android:exported="false" />
         <activity
-            android:name=".halaman_penyakit.kusta"
+            android:name="com.example.skinease.halaman_penyakit.kusta"
             android:exported="false" />
         <activity
-            android:name=".halaman_penyakit.shingles"
+            android:name="com.example.skinease.halaman_penyakit.shingles"
             android:exported="false" />
         <activity
-            android:name=".halaman_penyakit.kurap"
+            android:name="com.example.skinease.halaman_penyakit.kurap"
             android:exported="false" />
         <activity
-            android:name=".halaman_penyakit.kutil"
+            android:name="com.example.skinease.halaman_penyakit.kutil"
             android:exported="false" />
         <activity
-            android:name=".halanan_list"
+            android:name="com.example.skinease.halanan_list"
             android:exported="false" />
         <activity
-            android:name=".HalamanDetail"
+            android:name="com.example.skinease.HalamanDetail"
             android:exported="false" />
         <activity
-            android:name=".HalamanKamera"
+            android:name="com.example.skinease.HalamanKamera"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.skinease.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

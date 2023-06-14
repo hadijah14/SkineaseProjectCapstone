@@ -1,4 +1,4 @@
-package com.example.skineast
+package com.example.skinease
 
 import android.Manifest
 import android.content.Intent
@@ -19,14 +19,14 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.core.content.FileProvider
-import com.example.skineast.databinding.ActivityHalamanKameraBinding
-import com.example.skineast.halaman_penyakit.jerawat
-import com.example.skineast.halaman_penyakit.kemerahan
-import com.example.skineast.halaman_penyakit.kurap
-import com.example.skineast.halaman_penyakit.kusta
-import com.example.skineast.halaman_penyakit.kutil
-import com.example.skineast.halaman_penyakit.panu
-import com.example.skineast.halaman_penyakit.shingles
+import com.example.skinease.databinding.ActivityHalamanKameraBinding
+import com.example.skinease.halaman_penyakit.jerawat
+import com.example.skinease.halaman_penyakit.kemerahan
+import com.example.skinease.halaman_penyakit.kurap
+import com.example.skinease.halaman_penyakit.kusta
+import com.example.skinease.halaman_penyakit.kutil
+import com.example.skinease.halaman_penyakit.panu
+import com.example.skinease.halaman_penyakit.shingles
 import okhttp3.MediaType.Companion.toMediaType
 import okhttp3.MultipartBody
 import okhttp3.RequestBody.Companion.asRequestBody

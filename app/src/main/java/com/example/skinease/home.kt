@@ -1,4 +1,4 @@
-package com.example.skineast
+package com.example.skinease
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

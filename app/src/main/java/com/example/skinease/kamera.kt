@@ -1,4 +1,4 @@
-package com.example.skineast
+package com.example.skinease
 
 import androidx.camera.core.CameraSelector
 import androidx.camera.core.ImageCapture
