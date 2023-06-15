@@ -99,7 +99,7 @@
 
 * [TensorFlow](https://www.tensorflow.org/)
 * [Google Colab](https://research.google.com/colaboratory/)
-* [Inception v3](https://keras.io/api/applications/inceptionv3/)
+* [Inception v3 Model Based Architecture](https://keras.io/api/applications/inceptionv3/)
 * [Android Studio Native](https://developer.android.com/studio)
 * [Cloud Run](https://cloud.google.com/run/docs)
 * [Cloud Storage](https://cloud.google.com/storage)
@@ -148,11 +148,11 @@ Contributions make the open source community such an amazing place to learn, ins
     <img src="Logo/Skinease.jpg" alt="Logo" width="200" height="200">
   </a>
 
-* (ML) M038DSY2942 – Diaz Maharani - [m038dsy2942@bangkit.academy](https://mail.google.com/mail/u/0/#inbox?compose=new)
-* (ML) M173DSY0389 – Hadijah Nisa Ifayatin - [m173dsy0389@bangkit.academy](https://mail.google.com/mail/u/0/#inbox?compose=new)
-* (ML) M368DSX0014 – I Putu Eka Suarsa - [m368dsx0014@bangkit.academy](https://mail.google.com/mail/u/0/#inbox?compose=new)
-* (CC) C181DSY0794 – Laily Nur Azizah - [c181dsy0794@bangkit.academy](https://mail.google.com/mail/u/0/#inbox?compose=new)
-* (CC) C229DSX2375 – Akhmad Ridwan Yusuf - [c229dsx2375@bangkit.academy](https://mail.google.com/mail/u/0/#inbox?compose=new)
-* (MD) A042DKX4176 – Naufal Jakfar Ramadhan - [a042dkx4176@bangkit.academy](https://mail.google.com/mail/u/0/#inbox?compose=new)
+* (ML) M038DSY2942 – Diaz Maharani - [maharaanrani@gmail.com](https://mail.google.com/mail/u/0/#inbox?compose=new)
+* (ML) M173DSY0389 – Hadijah Nisa Ifayatin - [hadijahnis014@gmail.com](https://mail.google.com/mail/u/0/#inbox?compose=new)
+* (ML) M368DSX0014 – I Putu Eka Suarsa - [ekasuarsa31@gmail.com](https://mail.google.com/mail/u/0/#inbox?compose=new)
+* (CC) C181DSY0794 – Laily Nur Azizah - [lailinura16@gmail.com](https://mail.google.com/mail/u/0/#inbox?compose=new)
+* (CC) C229DSX2375 – Akhmad Ridwan Yusuf - [akhridwanyus@gmail.com](https://mail.google.com/mail/u/0/#inbox?compose=new)
+* (MD) A042DKX4176 – Naufal Jakfar Ramadhan - [naufaljakfar@gmail.com](https://mail.google.com/mail/u/0/#inbox?compose=new)
 
 Project Link: [https://github.com/hadijah14/SkineaseProjectCapstone](https://github.com/hadijah14/SkineaseProjectCapstone)
