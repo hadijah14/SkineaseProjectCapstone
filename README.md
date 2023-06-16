@@ -53,6 +53,11 @@
   </p>
 </p>
 
+<!-- BRANCH -->
+## Branch
+* <a href="https://github.com/hadijah14/SkineaseProjectCapstone/blob/ML/README.md">Machine Learning</a>
+* <a href="https://github.com/hadijah14/SkineaseProjectCapstone/tree/CC/skineasebackend">Cloud Computing</a>
+* <a href="https://github.com/hadijah14/SkineaseProjectCapstone/blob/MD/README.md">Mobile Development</a>
 
 
 <!-- TABLE OF CONTENTS -->
