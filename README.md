@@ -30,7 +30,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/hadijah14/SkineaseProjectCapstone">
-    ![Skinease](https://github.com/hadijah14/SkineaseProjectCapstone/assets/97577621/a15d616f-2ed6-4547-9b51-3ff45f6dad38)
+    <img src="https://github.com/hadijah14/SkineaseProjectCapstone/blob/MD/Mobile App/Skinease.jpg" alt="Logo" width="200" height="200">
   </a>
 
   <h2 align="center">Bangkit Capstone Project 2023: Skinease</h2>
@@ -150,6 +150,7 @@ Contributions make the open source community such an amazing place to learn, ins
 <h1 align="center">Skinease</h1>
 <p align="center">
   <a href="https://github.com/hadijah14/SkineaseProjectCapstone">
+    <img src="https://github.com/hadijah14/SkineaseProjectCapstone/blob/MD/Mobile App/Skinease.jpg" alt="Logo" width="200" height="200">
   </a>
 
 * (ML) M038DSY2942 – Diaz Maharani - [maharaanrani@gmail.com](https://mail.google.com/mail/u/0/#inbox?compose=new)
