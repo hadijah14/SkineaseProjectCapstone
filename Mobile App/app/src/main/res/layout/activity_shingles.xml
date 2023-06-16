@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white"
+    tools:context=".halaman_penyakit.shingles">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/text_kulit_bermasalah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kulit kamu bermasalah nih!"
+            android:fontFamily="@font/poppinsmedium"/>
+
+        <TextView
+            android:textColorHint="@color/black"
+            android:id="@+id/nama_penyakit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dermatofibroma"
+            android:layout_below="@+id/text_kulit_bermasalah"
+            android:textSize="30dp"
+            android:textColor="@color/birunavy"
+            android:fontFamily="@font/poppinsbold"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/apasih"
+            android:textColorHint="@color/black"
+            android:layout_below="@id/nama_penyakit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="apa sih itu?"
+            android:fontFamily="@font/poppinsbold"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="15dp"
+            android:id="@+id/penjelasan"
+            android:layout_below="@id/apasih"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:text="adalah pertumbuhan kulit yang umumnya bersifat jinak (non-kanker) dan terjadi sebagai respons tubuh terhadap cedera atau peradangan. Biasanya, dermatofibroma muncul sebagai benjolan kecil yang berwarna coklat atau merah kecoklatan pada permukaan kulit. Mereka umumnya ditemukan pada tungkai bawah, terutama pada wanita.Penyebab pasti dermatofibroma tidak diketahui, tetapi diperkirakan bahwa pertumbuhan ini terjadi sebagai hasil dari respon fibrosa dari jaringan ikat di bawah kulit. Beberapa faktor yang berkontribusi terhadap perkembangan dermatofibroma termasuk trauma pada kulit, paparan sinar matahari, infeksi, atau faktor genetik."
+            android:fontFamily="@font/poppinsmedium"/>
+        <TextView
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="15dp"
+            android:id="@+id/cara"
+            android:layout_below="@id/penjelasan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pengobatan dan Pencegahan"
+            android:fontFamily="@font/poppinsbold"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:id="@+id/pencegahan"
+            android:layout_below="@id/cara"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pembedahan"
+            android:fontFamily="@font/poppinsregular"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="10dp"
+            android:id="@+id/pointsatu"
+            android:layout_below="@id/pencegahan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text="Krioterapi"
+            android:fontFamily="@font/poppinsregular"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="10dp"
+            android:id="@+id/pointdua"
+            android:layout_below="@id/pointsatu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text="Kortikosteroid"
+            android:fontFamily="@font/poppinsregular"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="15dp"
+            android:id="@+id/pointtiga"
+            android:layout_below="@id/pointdua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text=""
+            android:fontFamily="@font/poppinsregular"/>
+
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white"
+    tools:context=".halaman_penyakit.kemerahan">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/text_kulit_bermasalah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kulit kamu sehat!"
+            android:fontFamily="@font/poppinsmedium"/>
+
+        <TextView
+            android:id="@+id/nama_penyakit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kamu Sehat!"
+            android:layout_below="@+id/text_kulit_bermasalah"
+            android:textSize="40dp"
+            android:textColor="@color/birunavy"
+            android:fontFamily="@font/poppinsbold"/>
+
+
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

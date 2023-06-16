@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".halaman_detail.detail_tropis">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/text_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Benarkah Sinar Matahari Mencegah Kanker Kulit?"
+            android:textSize="16sp"
+            android:fontFamily="@font/dmsans_bold"
+            android:layout_marginBottom="10dp"
+            />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/item_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/benarkah_sinar_matahari"
+            android:scaleType="centerCrop"
+            app:shapeAppearanceOverlay="@style/roundimageview"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginTop="30sp"
+            android:fontFamily="@font/dmsans_regular"
+            android:layout_width="match_parent"
+            android:textSize="12sp"
+            android:layout_height="wrap_content"
+            android:text="Hari Kanker Sedunia yang jatuh pada hari ini (4/2) merupakan upaya meningkatkan kesadaran terhadap penyakit kanker. Salah satu upaya mencegah kanker adalah dengan menerapkan gaya hidup sehat. Tak hanya itu, sinar matahari juga dikatakan dapat memberikan manfaat yang sama dalam mencegah kanker.Dibentuk oleh Union for International Cancer Control (UICC), Hari Kanker Sedunia dimaksudkan untuk mendukung Deklarasi Kanker Dunia yang dibuat pada tahun 2008 silam. Tujuan utamanya adalah menurunkan angka kesakitan dan kematian akibat kanker secara signifikan. Berbagai inisiatif pun dijalankan untuk memberi dukungan pada para penyintas kanker. Selain pengobatan medis, ada banyak alternatif yang dapat dilakukan untuk mengatasi hingga mencegah penyakit kanker. Salah satu upaya yang sering dibahas saat ini adalah berjemur di bawah sinar matahari. Benarkah cara tersebut manjur?"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginTop="20sp"
+            android:fontFamily="@font/dmsans_bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sinar matahari sebagai penangkal kanker"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginTop="10sp"
+            android:fontFamily="@font/dmsans_regular"
+            android:textSize="12sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sinar matahari kerap dianggap sebagai biang keladi kerusakan kulit. Padahal dalam dosis yang tepat, ia dapat memberikan manfaat yang signifikan, salah satunya mengatasi penyakit kanker, sesuai penjelasan dr. Nadia Octavia dari KlikDokter berikut ini.
+
+“Meskipun paparan sinar matahari secara berlebihan dapat meningkatkan risiko kanker kulit, namun paparan yang cukup justru dapat mencegah beberapa jenis kanker, seperti kanker kolorektal, kanker ovarium, kanker prostat dan kanker pankreas,” ujarnya.
+
+Menurut penelitian yang dilansir dari Verywell Health, kekurangan vitamin D dapat meningkatkan risiko kanker. Sehingga, banyak orang yang mengandalkan asupan vitamin D untuk memenuhi kebutuhan vitamin harian.
+
+Meski begitu, butuh penelitian lebih lanjut sebelum meyakini bahwa konsumsi suplemen ini secara rutin baik untuk pencegahan kanker. Namun, sebuah penelitian yang dilakukan pada hewan menemukan bahwa kadar vitamin yang cukup dapat membantu mencegah leukemia. Meski begitu, hal ini belum dibuktikan pada manusia.
+
+Studi lainnya menunjukkan bahwa orang yang tinggal jauh dari dari khatulistiwa dan sedikit mendapatkan paparan sinar UVB cenderung memiliki kadar vitamin D yang lebih rendah. Hal tersebut dikaitkan dengan risiko kanker yang lebih tinggi, termasuk leukemia.
+
+Para peneliti kemudian bekerjasama dengan NASA untuk memeriksa kondisi awan di berbagai negara dan melihat pengaruhnya terhadap paparan UVB dengan bantuan data satelit dari NASA.
+Masyarakat negara yang relatif dekat ke kutub seperti Australia, Selandia Baru, Chili, Irlandia, Kanada dan Amerika Serikat, dinilai memiliki risiko lebih tinggi terkena leukemia, salah satunya karena terletak jauh dari garis ekuator atau khatulistiwa."/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginTop="20sp"
+            android:fontFamily="@font/dmsans_bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Studi lainnya tentang sinar matahari dan kanker"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginTop="10sp"
+            android:fontFamily="@font/dmsans_regular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="Studi di atas memang tidak dapat membuktikan sepenuhnya akan vitamin D yang mampu mengatasi leukemia. Namun, segala kolerasi atau hubungan yang dapat dibedah, tengah dipelajari lebih lanjut oleh para ahli medis.
+
+Meski polemik terus terjadi, namun vitamin D lewat paparan sinar matahari dinilai mampu membantu terapi khusus pada pengidap kanker. Setidaknya, berjemur di pagi hari demi mendapatkan sinar matahari bisa menjadi solusi yang baik.
+
+“Paparan terhadap sinar matahari juga memicu pengeluaran hormon serotonin yang bertanggung jawab untuk meningkatkan mood serta membuat Anda merasa nyaman dan fokus,” ujar dr. Nadia, menjelaskan manfaat lainnya dari sinar matahari.
+
+Seperti yang telah diketahui, peran utama dari vitamin D adalah memperkuat tulang dan mengatasi masalah yang terkait dengan bagian tubuh tersebut. Namun, sinar matahari yang mengandung vitamin D dibuktikan oleh beberapa penelitian dapat mencegah kanker. Meski demikian, Anda harus tetap berkonsultasi pada dokter bila memang terdiagnosis mengidap penyakit kanker."/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white"
+    tools:context=".halaman_penyakit.kusta">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/text_kulit_bermasalah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kulit kamu bermasalah nih!"
+            android:fontFamily="@font/poppinsmedium"/>
+
+        <TextView
+            android:id="@+id/nama_penyakit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kusta"
+            android:layout_below="@+id/text_kulit_bermasalah"
+            android:textSize="40dp"
+            android:textColor="@color/birunavy"
+            android:fontFamily="@font/poppinsbold"/>
+
+        <TextView
+            android:id="@+id/apasih"
+            android:layout_below="@id/nama_penyakit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="apa sih itu?"
+            android:fontFamily="@font/poppinsbold"/>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:id="@+id/penjelasan"
+            android:layout_below="@id/apasih"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:text="Kusta atau lepra adalah penyakit infeksi bakteri kronis yang menyerang jaringan kulit, saraf tepi, dan saluran pernapasan. Kusta atau lepra dikenal juga dengan nama penyakit Hansen atau Morbus Hansen. Kusta atau lepra dapat ditandai dengan lemah atau mati rasa di tungkai dan kaki, kemudian diikuti dengan timbulnya lesi di kulit. Penyakit yang disebabkan oleh infeksi bakteri ini dapat menyebar melalui percikan ludah atau dahak yang keluar saat penderitanya batuk atau bersin."
+            android:fontFamily="@font/poppinsmedium"/>
+        <TextView
+            android:layout_marginTop="15dp"
+            android:id="@+id/cara"
+            android:layout_below="@id/penjelasan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pengobatan dan Pencegahan"
+            android:fontFamily="@font/poppinsbold"/>
+
+        <TextView
+            android:id="@+id/pencegahan"
+            android:layout_below="@id/cara"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Metode utama untuk mengobati kusta atau lepra adalah dengan obat antibiotik. Penderita kusta akan diberi kombinasi beberapa jenis antibiotik selama 1–2 tahun. Jenis, dosis, dan durasi penggunaan antibiotik akan ditentukan berdasarkan jenis kusta yang diderita. Contoh antibiotik yang digunakan untuk pengobatan kusta adalah:"
+            android:fontFamily="@font/poppinsmedium"/>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:id="@+id/pointsatu"
+            android:layout_below="@id/pencegahan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text="- Dapsone"
+            android:fontFamily="@font/poppinsregular"/>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:id="@+id/pointdua"
+            android:layout_below="@id/pointsatu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text="- Rifampicin"
+            android:fontFamily="@font/poppinsregular"/>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:id="@+id/pointtiga"
+            android:layout_below="@id/pointdua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text="- Minocycline"
+            android:fontFamily="@font/poppinsregular"/>
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+</ScrollView>

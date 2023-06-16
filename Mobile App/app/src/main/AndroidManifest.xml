@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.skinease">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SkinEast"
+        tools:targetApi="31">
+        <activity
+            android:name="com.example.skinease.halaman_detail.kesalahan_memakai_tabir"
+            android:exported="false" />
+        <activity
+            android:name="com.example.skinease.halaman_detail.fungsi_kulit"
+            android:exported="false" />
+        <activity
+            android:name="com.example.skinease.halaman_detail.struktur_kulit"
+            android:exported="false" />
+        <activity
+            android:name="com.example.skinease.halaman_detail.mengenal_struktur_kulit"
+            android:exported="false" />
+        <activity
+            android:name="com.example.skinease.halaman_detail.detail_tropis"
+            android:exported="false" />
+        <activity
+            android:name="com.example.skinease.halaman_penyakit.jerawat"
+            android:exported="false" />
+        <activity
+            android:name="com.example.skinease.halaman_penyakit.kemerahan"
+            android:exported="false" />
+        <activity
+            android:name="com.example.skinease.halaman_penyakit.panu"
+            android:exported="false" />
+        <activity
+            android:name="com.example.skinease.halaman_penyakit.kusta"
+            android:exported="false" />
+        <activity
+            android:name="com.example.skinease.halaman_penyakit.shingles"
+            android:exported="false" />
+        <activity
+            android:name="com.example.skinease.halaman_penyakit.kurap"
+            android:exported="false" />
+        <activity
+            android:name="com.example.skinease.halaman_penyakit.kutil"
+            android:exported="false" />
+        <activity
+            android:name="com.example.skinease.halanan_list"
+            android:exported="false" />
+        <activity
+            android:name="com.example.skinease.HalamanDetail"
+            android:exported="false" />
+        <activity
+            android:name="com.example.skinease.HalamanKamera"
+            android:exported="false" />
+        <activity
+            android:name="com.example.skinease.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.dicoding.picodiploma.mycamera"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

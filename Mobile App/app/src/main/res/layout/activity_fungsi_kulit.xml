@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:background="@color/white"
+    tools:context=".halaman_detail.fungsi_kulit">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/text_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cara merawat kulit di negara tropis"
+            android:textSize="16sp"
+            android:fontFamily="@font/dmsans_bold"
+            android:layout_marginBottom="10dp"
+            />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/item_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/cara_merawat_kulit"
+            android:scaleType="centerCrop"
+            app:shapeAppearanceOverlay="@style/roundimageview"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginTop="30sp"
+            android:fontFamily="@font/dmsans_regular"
+            android:layout_width="match_parent"
+            android:textSize="14sp"
+            android:layout_height="wrap_content"
+           android:text="Menjaga kesehatan kulit menjadi kunci agar penampilanmu senantiasa terlihat terawat dan menawan. Untuk memastikan kulit sehat, sejumlah cara menjaga kesehatan kulit pun sebaiknya kamu lakukan secara konsisten.
+
+Kulit sehat bisa dijaga dari luar dan dari dalam. Tidak hanya dengan memakai produk perawatan yang ideal, secara alami kulit bisa menjadi lebih sehat jika kamu menjalankan sejumlah kebiasaan yang baik untuk kulit.
+
+Berikut ini adalah beberapa cara menjaga kesehatan kulit yang dapat kamu lakukan setiap hari. Selain kulit lebih sehat dan terawat, kebiasaan-kebiasaan baik di bawah ini juga berpengaruh positif untuk kesehatan tubuhmu secara keseluruhan."/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginTop="20sp"
+            android:fontFamily="@font/dmsans_bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Mengubah Pola Makan Menjadi Lebih Sehat"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginTop="10sp"
+            android:fontFamily="@font/dmsans_bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Istirahat yang Cukup"/>
+ <TextView
+            android:textColor="@color/black"
+            android:layout_marginTop="10sp"
+            android:fontFamily="@font/dmsans_bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Hindari Rokok dan Alkohol"/>
+ <TextView
+            android:textColor="@color/black"
+            android:layout_marginTop="10sp"
+            android:fontFamily="@font/dmsans_bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Kelola Stres dengan Baik"/>
+ <TextView
+            android:textColor="@color/black"
+            android:layout_marginTop="10sp"
+            android:fontFamily="@font/dmsans_bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5.Lindungi dari Sinar Matahari"/>
+
+    </LinearLayout>
+
+</ScrollView>
